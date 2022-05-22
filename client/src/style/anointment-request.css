@@ -1,0 +1,68 @@
+.anointment_request {
+  border: 0.2px solid black;
+  margin: 3px;
+}
+
+.logo_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+.logo {
+  height: 100%;
+  width: 100%;
+  max-height: 120px;
+  max-width: 120px;
+}
+.right_box {
+  right: 20px;
+  position: absolute;
+  font-size: 14px;
+  color: black;
+}
+.container {
+  left: 50%;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 100%;
+}
+section {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.title {
+  background: #1c7aed;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+}
+.form_container {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.inline_block {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+label,
+input {
+  margin-left: 20px;
+}
+
+.input {
+  width: 200px;
+  font-family: "Josefin Slab", serif;
+}
+
+.star_required {
+  color: red;
+  margin-right: 4px;
+}
+
+.uppercase {
+  text-transform: capitalize;
+}

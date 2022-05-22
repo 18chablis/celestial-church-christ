@@ -1,0 +1,36 @@
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  height: 100vh;
+}
+
+.loader {
+  color: rgb(29, 9, 104);
+  font-family: Consolas, Menlo, Monaco, monospace;
+  font-weight: bolder;
+  font-size: 6vh;
+  opacity: 0.8;
+}
+.loader span {
+  display: inline-block;
+  animation: pulse 0.3s alternate infinite ease-in;
+}
+.loader span:nth-child(odd) {
+  animation-delay: 0.7s;
+}
+@keyframes pulse {
+  to {
+    transform: scale(0.7);
+    opacity: 0.5;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 500px) {
+  .loader {
+    font-size: larger;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 2048px) {
+}

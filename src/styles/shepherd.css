@@ -1,0 +1,20 @@
+.shepherd li {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  color: white;
+  width: 100%;
+}
+
+.shepherd li:hover {
+  color: #37a69b;
+  background-color: white;
+}
+.shepherd li:first-child:hover {
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+}
+
+.shepherd li:last-child:hover {
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+}
